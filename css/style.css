@@ -72,6 +72,9 @@ div.sections ul {
 div.sections div {
  margin:0px 15px;
 }
+div#skillsSub {
+ margin:0px 30px;
+}
 div.Employer {
  font-weight:bold;
  font-size:15px;
