@@ -1,0 +1,10 @@
+body {
+ background-color:B0DCA3;
+}
+div.header {
+ color:#c9ccd3;
+ width:49%;
+ font-family:"Arial";
+ font-weight:bold;
+ text-shadow:2px 2px 3px #434343;
+}
