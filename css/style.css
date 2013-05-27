@@ -78,7 +78,6 @@ div.Employer {
  margin:0px 0px 0px 15px;
  width:40%;
  float: left;
- padding:0px 0px 0px 1%;
 }
 div.EmployedDates {
  font-weight:bold;
@@ -87,5 +86,4 @@ div.EmployedDates {
  width:40%;
  float: right;
  text-align:right;
- padding:0px 1% 0px 0px;
 }
