@@ -1,6 +1,5 @@
 body {
  margin:0px;
- height:100%;
  background-color:#eef9ee;
 }
 .arialText {
@@ -14,8 +13,6 @@ div#container {
  margin: 0px 5%;
  width:90%;
  min-width:820px;
- height:100%;
- min-height:500px;
  box-shadow: 0px 0px 25px #373737;
 }
 #headers {
@@ -62,6 +59,33 @@ div.sections h3 {
  background: -webkit-gradient(linear, left top, right bottom, from(#B0DCA3), to(#EFEFEF));
 
 }
+div.sections span {
+ margin-bottom:0px;
+ margin-left:15px;
+ font-weight:bold;
+ font-size:15px;
+}
 div.sections ul {
- margin-top: 5px;
+ margin-top: 0px;
+ clear: both;
+}
+div.sections div {
+ margin:0px 15px;
+}
+div.Employer {
+ font-weight:bold;
+ font-size:15px;
+ margin:0px 0px 0px 15px;
+ width:40%;
+ float: left;
+ padding:0px 0px 0px 1%;
+}
+div.EmployedDates {
+ font-weight:bold;
+ font-size:15px;
+ margin:0px 15px 0px 0px;
+ width:40%;
+ float: right;
+ text-align:right;
+ padding:0px 1% 0px 0px;
 }
