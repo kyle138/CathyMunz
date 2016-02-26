@@ -1,1 +1,1 @@
-testing getDeployTarget
+calling getDeployTarget
