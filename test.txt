@@ -1,5 +1,4 @@
 calling getDeployTarget
-fixing error handler
-pt6
-
+testing for if type == S3
+and deploying to specified target
  
