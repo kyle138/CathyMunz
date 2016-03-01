@@ -1,3 +1,4 @@
+test.js
 calling getDeployTarget
 testing for if type == S3
 and deploying to specified target
