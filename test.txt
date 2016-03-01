@@ -1,1 +1,2 @@
 Testing new non-blocking code
+with functions within exports.handler
