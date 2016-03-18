@@ -1,6 +1,7 @@
 {
   "deploy": {
     "type": "S3",
-    "target": "www.cathymunz.com"
+    "target": "www.cathymunz.com",
+    "target-dev": "dev.cathymunz.com"
   }
 }
