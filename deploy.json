@@ -2,7 +2,8 @@
   "deploy": {
     "type": "S3",
     "target": {
-      "master": "www.cathymunz.com"
+      "master": "www.cathymunz.com",
+      "dev": "dev.cathymunz.com"
     }
   }
 }
