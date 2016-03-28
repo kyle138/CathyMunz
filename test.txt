@@ -1,2 +1,2 @@
-4
-testing empty string in deploy.target.dev
+1
+testing for no dev declared at all. Also elsed the if in lambda.
