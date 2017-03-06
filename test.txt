@@ -1,2 +1,2 @@
-1
-testing for no dev declared at all. Also elsed the if in lambda.
+3
+testing empty dev
