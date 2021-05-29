@@ -8,9 +8,23 @@
 }
 .bg-grey {
   background-color: #f6f6f6;
+  color: #333333;
+}
+.bg-green {
+  background-color: #4ee138;
+  color: #fefefe;
+}
+.bg-white {
+  background-color: #fefefe;
+  color: #333333;
 }
 .logo {
+  color: #4ee138;
   font-size: 200px;
+}
+.logo-small {
+  color: #4ee138;
+  font-size: 50px;
 }
 @media screen and (max-width: 768px) {
   .col-sm-4 {
