@@ -9,6 +9,9 @@ body {
   color: #fefefe;
   padding: 100px 25px;
 }
+.jumbotron a {
+  color: #fefefe;
+}
 .container-fluid {
   padding: 60px 50px;
 }
@@ -78,7 +81,7 @@ footer .glyphicon {
   margin-bottom: 20px;
   color: #4ee138;
 }
-footer p {
+footer p,a,a:hover {
   color: #4ee138;
 }
 @media screen and (max-width: 768px) {
