@@ -38,13 +38,16 @@
   <!-- jumbotron -->
   <div class="jumbotron text-center">
     <h1>Cathy Munz</h1>
-    <p>Enter passcode to view resume</p>
-    <form class="form-inline">
+    <p>Enter passcode to view full resume</p>
+    <form class="form-inline" name="passcode_form" action="javascript:location.href='/pass_'+window.document.passcode_form.passcode_fld.value.trim()">
       <div class="input-group">
-        <input type="passcode" class="form-control" name="passcode-fld" size="50" placeholder="Passcode" required>
+        <input type="text" class="form-control" name="passcode_fld" size="50" placeholder="Passcode" required>
         <div class="input-group-btn">
           <button type="button" class="btn btn-default" name="passcode-btn">Submit</button>
         </div>
+        <noscript>
+          <p class="alert alert-danger">Javascript is required to access this area. Yours seems to be disabled.</p>
+        </noscript>
       </div>
     </form>
   </div>
