@@ -12,14 +12,39 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
  </head>
- <body>
+ <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="#about">ABOUT</a> </li>
+          <li> <a href="#contact">CONTACT</a> </li>
+          <li> <a href="#qualifications">QUALIFICATIONS</a> </li>
+          <li> <a href="#experience">EXPERIENCE</a> </li>
+          <li> <a href="#education">EDUCATION</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- jumbotron -->
   <div class="jumbotron text-center">
     <h1>Cathy Munz</h1>
   </div>
 
   <!-- About me -->
-  <div class="container-fluid">
+  <div id="about" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
         <h2>About me</h2>
@@ -33,7 +58,7 @@
   <!-- End About me -->
 
   <!-- Contact me -->
-  <div class="container-fluid bg-grey">
+  <div id="contact" class="container-fluid bg-grey">
     <div class="row">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-envelope logo"></span>
@@ -48,7 +73,7 @@
   <!-- End Contact me -->
 
   <!-- Qualifications -->
-  <div class="container-fluid text-left">
+  <div id="qualifications" class="container-fluid text-left">
     <h2>Qualifications</h2>
     <div class="row">
       <div class="col-sm-8">
@@ -73,99 +98,134 @@
   </div>
   <!-- End Qualifications -->
 
-<!-- Experience -->
-<div class="container-fluid text-left bg-green">
-  <h2>Professional Experience</h2>
-  <div class="row bg-grey">
-    <div class="col-sm-8">
-      <h4>Hart Energy</h4>
-      <ul>
-        <li>Customer Service Representative</li>
-        <li>Fulfillment & Audience Development</li>
-      </ul>
+  <!-- Experience -->
+  <div id="experience" class="container-fluid text-left bg-green">
+    <h2>Professional Experience</h2>
+    <div class="row bg-grey">
+      <div class="col-sm-8">
+        <h4>Hart Energy</h4>
+        <ul>
+          <li>Customer Service Representative</li>
+          <li>Fulfillment & Audience Development</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>October 2017 to Present</h4>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h4>October 2017 to Present</h4>
+    <div class="row bg-white">
+      <div class="col-sm-8">
+        <h4>Media Riders</h4>
+        <ul>
+          <li>MCNA Member Services Representative</li>
+          <li>Bilingual Interpreter</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>February 2014 to October 2017</h4>
+      </div>
+    </div>
+    <div class="row bg-grey">
+      <div class="col-sm-8">
+        <h4>Media Riders</h4>
+        <ul>
+          <li>Trusted Agent</li>
+          <li>Fingerprint Technician</li>
+          <li>Data Entry</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>January 2010 to March 2011</h4>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-sm-8">
+        <h4>Lawyers' Filing & Delivery Service</h4>
+        <ul>
+          <li>Receptionist</li>
+          <li>Billing Entry</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>June 2005 to November 2009</h4>
+      </div>
+    </div>
+    <div class="row bg-grey">
+      <div class="col-sm-8">
+        <h4>Dillard's</h4>
+        <ul>
+          <li>Sales Associate</li>
+          <li>Inventory</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>April 2004 to June 2005</h4>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-sm-8">
+        <h4>Best Computer USA</h4>
+        <ul>
+          <li>Sales Manager</li>
+          <li>Inventory</li>
+          <li>System Quotes</li>
+          <li>Returns</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>June 2005 to November 2009</h4>
+      </div>
+    </div>
+    <div class="row bg-grey">
+      <div class="col-sm-8">
+        <h4>Special Texas Homes</h4>
+        <ul>
+          <li>Caregiver</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>April 2004 to June 2005</h4>
+      </div>
     </div>
   </div>
-  <div class="row bg-white">
-    <div class="col-sm-8">
-      <h4>Media Riders</h4>
-      <ul>
-        <li>MCNA Member Services Representative</li>
-        <li>Bilingual Interpreter</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h4>February 2014 to October 2017</h4>
-    </div>
-  </div>
-  <div class="row bg-grey">
-    <div class="col-sm-8">
-      <h4>Media Riders</h4>
-      <ul>
-        <li>Trusted Agent</li>
-        <li>Fingerprint Technician</li>
-        <li>Data Entry</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h4>January 2010 to March 2011</h4>
-    </div>
-  </div>
-  <div class="row bg-white">
-    <div class="col-sm-8">
-      <h4>Lawyers' Filing & Delivery Service</h4>
-      <ul>
-        <li>Receptionist</li>
-        <li>Billing Entry</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h4>June 2005 to November 2009</h4>
+  <!-- End Experience -->
+
+  <!-- Education -->
+  <div id="education" class="container-fluid text-left">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>Education</h2>
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <h4>San Jacinto Community College - Pasadena, TX</h4>
+          <ul>
+            <li>AAPC Professional Medical Coding Curriculum for CPC Certification</li>
+          </ul>
+        </div>
+        <div class="row">
+          <h4>Thomas Jefferson High School - Port Arthur, TX</h4>
+          <ul>
+            <li>Health Occupations Students of America</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row bg-grey">
-    <div class="col-sm-8">
-      <h4>Dillard's</h4>
-      <ul>
-        <li>Sales Associate</li>
-        <li>Inventory</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h4>April 2004 to June 2005</h4>
-    </div>
-  </div>
-  <div class="row bg-white">
-    <div class="col-sm-8">
-      <h4>Best Computer USA</h4>
-      <ul>
-        <li>Sales Manager</li>
-        <li>Inventory</li>
-        <li>System Quotes</li>
-        <li>Returns</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h4>June 2005 to November 2009</h4>
-    </div>
-  </div>
-  <div class="row bg-grey">
-    <div class="col-sm-8">
-      <h4>Special Texas Homes</h4>
-      <ul>
-        <li>Caregiver</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h4>April 2004 to June 2005</h4>
-    </div>
-  </div>
-</div>
-<!-- End Experience -->
+  <!-- End Education -->
+
+  <!-- Footer -->
+  <footer class="container-fluid text-center">
+    <a href="#" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>www.CathyMunz.com</p>
+  </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/smooth.js" type="text/javascript">
+
+  </script>
   </body>
 </html>

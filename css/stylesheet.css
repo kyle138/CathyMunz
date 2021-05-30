@@ -26,6 +26,35 @@
   color: #4ee138;
   font-size: 50px;
 }
+.navbar {
+  margin-bottom: 0;
+  background-color: #4ee138;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fefefe !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #4ee138 !important;
+  background-color: #fefefe !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fefefe !important;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #4ee138;
+}
+footer p {
+  color: #4ee138;
+}
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
