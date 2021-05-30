@@ -39,7 +39,7 @@
   <div class="jumbotron text-center">
     <h1>Cathy Munz</h1>
     <p>Enter passcode to view full resume</p>
-    <form class="form-inline" name="passcode_form" action="javascript:location.href='/pass_'+window.document.passcode_form.passcode_fld.value.trim()">
+    <form class="form-inline" name="passcode_form" action="javascript:location.href='/pass_'+window.document.passcode_form.passcode_fld.value.trim().toLowerCase()">
       <div class="input-group">
         <input type="text" class="form-control" name="passcode_fld" size="50" placeholder="Passcode" required>
         <div class="input-group-btn">
