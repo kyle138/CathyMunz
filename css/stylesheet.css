@@ -70,6 +70,9 @@ h4 {
   border-color: transparent;
   color: #fefefe !important;
 }
+#contact div.row {
+  padding-bottom: 15px;
+}
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
