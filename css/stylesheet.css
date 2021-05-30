@@ -1,4 +1,10 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #434343;
+}
 .jumbotron {
+  font-family: Montserrat, sans-serif;
   background-color: #4ee138;  /* nice shade o'green */
   color: #fefefe;
   padding: 100px 25px;
@@ -22,11 +28,22 @@
   color: #4ee138;
   font-size: 200px;
 }
-.logo-small {
-  color: #4ee138;
-  font-size: 50px;
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #383838;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #181818;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 .navbar {
+  font-family: Montserrat, sans-serif;
   margin-bottom: 0;
   background-color: #4ee138;
   z-index: 9999;
@@ -38,6 +55,12 @@
 }
 .navbar li a, .navbar .navbar-brand {
   color: #fefefe !important;
+}
+.navbar-brand {
+  padding: 0px 15px;
+}
+.navbar-brand img {
+  height: 50px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #4ee138 !important;
@@ -59,5 +82,8 @@ footer p {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
+  }
+  .logo {
+    font-size: 100px;
   }
 }
