@@ -23,13 +23,17 @@ body {
   background-color: #4ee138;
   color: #fefefe;
 }
-.bg-white {
-  background-color: #fefefe;
-  color: #333333;
-}
 .logo {
   color: #4ee138;
   font-size: 200px;
+}
+#experience div.row:nth-child(odd) {
+  background-color: #fefefe;
+  color: #333333;
+}
+#experience div.row:nth-child(even) {
+  background-color: #f6f6f6;
+  color: #333333;
 }
 h2 {
   font-size: 24px;
