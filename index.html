@@ -1,15 +1,141 @@
-<html>
-<head>
- <title>CATHY MUNZ</TITLE>
- <link rel="shortcut icon" href="images/favicon.ico" />
- <link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
-<body>
-<div id='container'>
- <div id='headers'>
-  <div id='headerL' class='header'>Cathy Munz</div>
-  <div id='headerR' class='header'>Contact Me<br/>cathy@cathymunz.com</div>
- </div>
-</div>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>CATHY MUNZ</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Cathy Munz">
+  <meta name="description" content="Cathy Munz Resume">
+  <meta name="keywords" content="Cathy, Munz, resume">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat|Lato" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+ </head>
+ <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="#"><img src="images/logo.png" alt="CM Logo"></a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+         <li> <a href="#about">ABOUT</a> </li>
+         <li> <a href="#contact">CONTACT</a> </li>
+       </ul>
+     </div>
+   </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- jumbotron -->
+  <div class="jumbotron text-center">
+    <h1>Cathy Munz</h1>
+    <p id="enterPasscode">Enter passcode to view full resume</p>
+    <form class="form-inline" name="passcode_form" action="javascript:location.href='/pass_'+window.document.passcode_form.passcode_fld.value.trim().toLowerCase()">
+      <div class="input-group">
+        <input type="text" class="form-control" name="passcode_fld" size="50" placeholder="Passcode" required>
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-default" name="passcode-btn">Submit</button>
+        </div>
+        <noscript>
+          <p class="alert alert-danger">Javascript is required to access this area. Yours seems to be disabled.</p>
+        </noscript>
+      </div>
+    </form>
+  </div>
+  <!-- End jumbotron -->
+
+  <!-- About me -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>About me</h2>
+        <p>Solid experience in a professional environment. Outgoing with a proven ability to communicate with a wide range of personalities. Well disciplined with a personal commitment to high standards of responsibility and attention to detail. Able to handle a variety of tasks and responsibilities simultaneously. Intelligent and able to follow instructions precisely.</p>
+      </div>
+      <div class="col-sm-4 text-right">
+        <span class="glyphicon glyphicon-leaf logo"></span>
+      </div>
+    </div>
+  </div>
+  <!-- End About me -->
+
+  <!-- Contact me -->
+  <div id="contact" class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-envelope logo"></span>
+      </div>
+      <div class="col-sm-8 text-center">
+        <h2>Get in touch</h2>
+        <br>
+        <button class="btn btn-default btn-lg" type="button" name="contactme-btn" data-toggle="collapse" data-target="#feedback">
+          Contact me
+        </button>
+      </div>
+    </div>
+    <div class="row collapse" id="feedback">
+      <div class="col-sm-12 text-left">
+        <form name="sentMessage" class="well" id="contactForm" novalidate="">
+          <input type="hidden" id="site" value="CathyMunz">
+          <div class="control-group">
+            <div class="controls">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control" id="name">
+              <div class="help-block"> </div>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email">
+              <div class="help-block"> </div>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject">
+              <div class="help-block"> </div>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <label for="message">Your Message (<span class="required">*Required</span>)</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required="" data-validation-required-message="Please enter your message" maxlength="5999" style="resize:none"></textarea>
+              <div class="help-block"> </div>
+            </div>
+          </div>
+          <div id="success"> </div>
+
+          <button type="submit" class="btn btn-success btn-lg pull-right send" type="button">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact me -->
+
+  <!-- Footer -->
+  <footer class="container-fluid text-center">
+    <a href="#" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p><a href="https://www.cathymunz.com/">www.CathyMunz.com</a></p>
+  </footer>
+  <!-- End footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/smooth.js" type="text/javascript"></script>
+  <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
+  <script src="js/feedback.js" type="text/javascript"></script>
+  <script src="js/incorrectPass.js" type="text/javascript"></script>
+  </body>
 </html>
